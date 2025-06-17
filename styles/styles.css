@@ -1,0 +1,150 @@
+/*selector + propiedad + valor*/
+header { background-color: rgb(20, 100, 100);
+    font-family: "Anton", sans-serif;
+    text-decoration: underline;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .navbar {
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    display: inline-block;
+    gap: 10px;
+    }
+
+    li {
+        color: aliceblue;
+        text-decoration: none;
+        font-family: none;
+        text-align: left;
+        list-style: none;
+        display: inline-block;
+        margin: 5px;
+    }
+    a { color: aliceblue;
+    }
+
+.titulo-index {color: rgb(8, 19, 19);
+    text-align: left;
+    text-decoration: underline;
+}
+.foto1-index{
+    width: 100%;
+    height: auto;
+}
+h2 { color: rgb(45, 123, 126);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    text-decoration: underline;
+}
+
+body {
+background-color: rgb(192, 192, 192);
+}
+.section-index {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.div-section {
+    width: 50%;
+    height: 40vh;
+    background-color: rgb(20, 100, 100);
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+.divimg {
+    display: flex;
+    justify-content: center;
+    width: 100% ;
+    height: 40vh;
+}
+.divsubtitulo {
+    padding: 20px;
+    margin-top: 6%;
+}
+ul {
+nav-right: inherit;
+display: flex;
+}
+.ul-index{
+    align-items: center;
+}
+
+h4{ color: rgb(45, 123, 126);
+    text-align: center;
+}
+.titulo-experiencia {
+    color: rgb(8, 19, 19);
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Anton", sans-serif;
+}
+.foto1-experiencia {
+    width: 100%;
+    height: auto;
+}
+.parrafo-experiencia {
+    text-decoration: none;
+}
+.subtitulo-noticias {
+    color: aliceblue;
+}
+.fotonico {
+    width: 100%;
+    height: auto;
+}
+.fotofranco {
+    width: 100%;
+    height: auto;
+}
+.header-noticias {
+    display: flex;
+    text-align: right;
+}
+.ul-noticias {
+    display: flex;
+}
+.pie-index {
+    text-align: center;
+}
+.pie-experiencia {
+    text-align: center;
+}
+.pie-labanda {
+    text-align: center;
+}
+.pie-noticias {
+    text-align: center;
+}
+.pie-contacto {
+    text-align: center;
+}
+.historialfotos {
+    display: flex;
+    width: 100%;
+    height: 430px;
+}
+.historialfotos img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.historialfotos img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.maincontacto {
+    text-align: center;
+}
+.mainnoticias {
+    text-align: center;
+}
