@@ -148,3 +148,8 @@ h4{ color: rgb(45, 123, 126);
 .mainnoticias {
     text-align: center;
 }
+.videocuga {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
