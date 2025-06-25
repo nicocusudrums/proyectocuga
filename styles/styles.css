@@ -91,10 +91,10 @@ h4{ color: rgb(45, 123, 126);
     text-decoration: none;
 }
 .subtitulo-noticias {
-    color: aliceblue;
+    color: rgb(45, 123, 126);
 }
 .subtitulo2-noticias {
-    color: aliceblue;
+    color: rgb(45, 123, 126);
     text-decoration: underline;
 }
 .fotonico {
@@ -117,6 +117,8 @@ h4{ color: rgb(45, 123, 126);
 }
 .pie-experiencia {
     text-align: center;
+    padding: 10px;
+    margin-top: 4%;
 }
 .pie-labanda {
     text-align: center;
