@@ -16,6 +16,24 @@ header { background-color: rgb(20, 100, 100);
     gap: 10px;
     }
 
+    @media (max-width: 480px) {
+    .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 2px 0;
+    text-decoration: none;
+}
+    }
+@media (max-width: 480px) {
+    .div-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
     li {
         color: aliceblue;
         text-decoration: none;
