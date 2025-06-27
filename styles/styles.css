@@ -15,6 +15,11 @@ header { background-color: rgb(20, 100, 100);
     display: flex;
     gap: 10px;
     }
+    .nav-link dropdown-toggle {
+        display: flex;
+        width: 100%;
+
+    }
 
     @media (max-width: 480px) {
     .navbar {
@@ -32,6 +37,13 @@ header { background-color: rgb(20, 100, 100);
         display: flex;
         flex-direction: column;
     }
+}
+.ulnav {
+    color: aliceblue;
+
+}
+.li.nav {
+     color: aliceblue;
 }
 
     li {
@@ -54,9 +66,18 @@ header { background-color: rgb(20, 100, 100);
     width: 100%;
     height: auto;
 }
-h2 { color: rgb(45, 123, 126);
+.subtitulo-index { color: rgb(45, 123, 126);
     text-align: center;
     font-family: "Anton", sans-serif;
+    text-decoration: underline;
+}
+.subtitulo-experiencia { color: rgb(45, 123, 126);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    text-decoration: underline;
+}
+.subcontacto {
+    color:  rgb(20, 100, 100);
     text-decoration: underline;
 }
 body {
@@ -92,6 +113,9 @@ display: flex;
 .ul-index{
     align-items: center;
 }
+.li-index {
+    color: rgb(45, 123, 126);
+}
 
 h4{ color: rgb(45, 123, 126);
     text-align: center;
@@ -111,6 +135,7 @@ h4{ color: rgb(45, 123, 126);
 }
 .subtitulo-noticias {
     color: rgb(45, 123, 126);
+    text-decoration: underline;
 }
 .subtitulo2-noticias {
     color: rgb(45, 123, 126);
@@ -206,7 +231,7 @@ h4{ color: rgb(45, 123, 126);
 }
 
 .cajacontacto {
-    width: 99%;
+    width: 100%;
     height: auto;
     background-color: rgb(45, 123, 126);
     border: 2px solid aliceblue;
@@ -223,4 +248,13 @@ h4{ color: rgb(45, 123, 126);
        padding: 10px;
      }
      
+}
+.integrantes {
+    color:  rgb(45, 123, 126);
+    text-align: center;
+    text-decoration: underline;
+}
+.link.noti {
+    color:  rgb(45, 123, 126);
+
 }
