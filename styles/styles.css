@@ -242,13 +242,6 @@ h4{ color: rgb(45, 123, 126);
     align-items: center;
 }
 
-@media (max-width: 480px) {
-     body {
-       font-size: 16px;
-       padding: 10px;
-     }
-     
-}
 .integrantes {
     color:  rgb(45, 123, 126);
     text-align: center;
@@ -257,4 +250,11 @@ h4{ color: rgb(45, 123, 126);
 .link.noti {
     color:  rgb(45, 123, 126);
 
+}
+@media (max-width: 480px) {
+     body {
+       font-size: 16px;
+       padding: 10px;
+     }
+     
 }
