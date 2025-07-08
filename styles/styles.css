@@ -240,8 +240,7 @@ h4{ color: rgb(45, 123, 126);
      body {
        font-size: 16px;
        padding: 10px;
-     }
-     
+} 
 }
 .pcontacto {
     font-weight: bold;
@@ -249,9 +248,24 @@ h4{ color: rgb(45, 123, 126);
 @media (max-width: 480px) {
     .historialfotos img {
     width: 100%;
-    height: auto;
-    
-    }
-
-
+    height: auto;  
+}
+}
+@media (max-width: 480px) {
+.body-labanda {
+    font-size: 16px;
+    padding: 10px;
+}
+}
+@media (max-width: 480px) {
+.body-noticias {
+    font-size: 16px;
+    padding: 10px;
+}
+}
+@media (max-width: 480px) {
+.body-contacto {
+    font-size: 16px;
+    padding: 10px;
+}
 }
