@@ -1,4 +1,3 @@
-/*selector + propiedad + valor*/
 
 header { background-color: rgb(20, 100, 100);
     font-family: "Anton", sans-serif;
@@ -8,7 +7,7 @@ header { background-color: rgb(20, 100, 100);
     justify-content: space-between;
     }
 
-    .navbar {
+.navbar {
     flex-direction: column;
     align-items: flex-end;
     list-style: none;
@@ -141,38 +140,11 @@ h4{ color: rgb(45, 123, 126);
     color: rgb(45, 123, 126);
     text-decoration: underline;
 }
-.fotonico {
+.fotointegrante {
     width: 100%;
     height: auto;
 }
-.fotofranco {
-    width: 100%;
-    height: auto;
-}
-.fotofabri {
-    width: 100%;
-    height: auto;
-}
-.fotomarcos {
-    width: 100%;
-    height: auto;
-}
-.fotogoro {
-    width: 100%;
-    height: 20%;
-}
-.fotochoro {
-    width: 100%;
-    height: auto;
-}
-.fotorana {
-    width: 100%;
-    height: auto;
-}
-.fotomauro {
-    width: 100%;
-    height: auto;
-}
+
 .header-noticias {
     display: flex;
     text-align: right;
@@ -199,11 +171,14 @@ h4{ color: rgb(45, 123, 126);
     padding: 10px;
     margin-top: 4%;
 }
+@media (min-width: 1200px) {
 .historialfotos {
     display: flex;
     width: 100%;
     height: 430px;
 }
+}
+@media (min-width: 1200px) {
 .historialfotos img {
     width: 0px;
     flex-grow: 1;
@@ -211,11 +186,14 @@ h4{ color: rgb(45, 123, 126);
     opacity: .8;
     transition: .5s ease;
 }
+}
+@media (min-width: 1200px) {
 .historialfotos img:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
+}
 }
 .maincontacto {
     text-align: center;
@@ -254,7 +232,7 @@ h4{ color: rgb(45, 123, 126);
     text-align: center;
     text-decoration: underline;
 }
-.link.noti {
+.linknoti {
     color:  rgb(45, 123, 126);
 
 }
@@ -264,4 +242,16 @@ h4{ color: rgb(45, 123, 126);
        padding: 10px;
      }
      
+}
+.pcontacto {
+    font-weight: bold;
+}
+@media (max-width: 480px) {
+    .historialfotos img {
+    width: 100%;
+    height: auto;
+    
+    }
+
+
 }
