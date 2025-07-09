@@ -1,27 +1,27 @@
-
-header { background-color: rgb(20, 100, 100);
-    font-family: "Anton", sans-serif;
-    text-decoration: underline;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    }
+header {
+  background-color: rgb(20, 100, 100);
+  font-family: "Anton", sans-serif;
+  text-decoration: underline;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
 
 .navbar {
-    flex-direction: column;
-    align-items: flex-end;
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    }
-    .nav-link dropdown-toggle {
-        display: flex;
-        width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
 
-    }
+.nav-link dropdown-toggle {
+  display: flex;
+  width: 100%;
+}
 
-    @media (max-width: 480px) {
-    .navbar {
+@media (max-width: 480px) {
+  .navbar {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,243 +29,300 @@ header { background-color: rgb(20, 100, 100);
     padding: 0;
     margin: 2px 0;
     text-decoration: none;
+  }
 }
-    }
 @media (max-width: 480px) {
-    .div-section {
-        display: flex;
-        flex-direction: column;
-    }
+  .div-section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .ulnav {
-    color: aliceblue;
-
+  color: aliceblue;
 }
+
 .li.nav {
-     color: aliceblue;
+  color: aliceblue;
 }
 
-    li {
-        color: aliceblue;
-        text-decoration: none;
-        font-family: none;
-        text-align: left;
-        list-style: none;
-        display: inline-block;
-        margin: 5px;
-    }
-    a { color: aliceblue;
-    }
-
-.titulo-index {color: rgb(8, 19, 19);
-    text-align: left;
-    text-decoration: underline;
+li {
+  color: aliceblue;
+  text-decoration: none;
+  font-family: none;
+  text-align: left;
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
 }
-.foto1-index{
+
+a {
+  color: aliceblue;
+}
+
+.titulo-index {
+  color: rgb(8, 19, 19);
+  text-align: left;
+  text-decoration: underline;
+}
+
+.foto1-index {
+  display: flex ;
+  width: 100%;
+  height: 100vh;
+  }
+@media (max-width: 480px) {
+.foto1-index { 
     width: 100%;
     height: auto;
 }
-.subtitulo-index { color: rgb(45, 123, 126);
-    text-align: center;
-    font-family: "Anton", sans-serif;
-    text-decoration: underline;
 }
-.subtitulo-experiencia { color: rgb(45, 123, 126);
-    text-align: center;
-    font-family: "Anton", sans-serif;
-    text-decoration: underline;
+.subtitulo-index {
+  color: rgb(45, 123, 126);
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  text-decoration: underline;
 }
+
+.subtitulo-experiencia {
+  color: rgb(45, 123, 126);
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  text-decoration: underline;
+}
+
 .subcontacto {
-    color:  rgb(20, 100, 100);
-    text-decoration: underline;
-}
-body {
-background-color: rgb(192, 192, 192);
-}
-.section-index {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-}
-.div-section {
-    width: 50%;
-    height: 40vh;
-    background-color: rgb(20, 100, 100);
-    text-align: center;
-    border: 2px solid rgb(0, 0, 0);
-    margin: 10px;
-}
-.divimg {
-    display: flex;
-    justify-content: center;
-    width: 100% ;
-    height: 40vh;
-}
-.divsubtitulo {
-    padding: 25px;
-    margin-top: 8%;
-}
-ul {
-nav-right: inherit;
-display: flex;
-}
-.ul-index{
-    align-items: center;
-}
-.li-index {
-    color: rgb(45, 123, 126);
+  color: rgb(20, 100, 100);
+  text-decoration: underline;
 }
 
-h4{ color: rgb(45, 123, 126);
-    text-align: center;
+body {
+  background-color: rgb(192, 192, 192);
 }
+
+.section-index {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.div-section {
+  width: 50%;
+  height: 40vh;
+  background-color: rgb(20, 100, 100);
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 10px;
+}
+
+.divimg {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40vh;
+}
+
+.divsubtitulo {
+  padding: 25px;
+  margin-top: 8%;
+}
+
+ul {
+  nav-right: inherit;
+  display: flex;
+}
+
+.ul-index {
+  align-items: center;
+}
+
+.li-index {
+  color: rgb(45, 123, 126);
+}
+
+h4 {
+  color: rgb(45, 123, 126);
+  text-align: center;
+}
+
 .titulo-experiencia {
-    color: rgb(8, 19, 19);
-    text-align: center;
-    text-decoration: underline;
-    font-family: "Anton", sans-serif;
+  color: rgb(8, 19, 19);
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Anton", sans-serif;
 }
+
 .foto1-experiencia {
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width: 480px) {
+.foto1-experiencia { 
     width: 100%;
     height: auto;
+}
 }
 .parrafo-experiencia {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 .subtitulo-noticias {
-    color: rgb(45, 123, 126);
-    text-decoration: underline;
+  color: rgb(45, 123, 126);
+  text-decoration: underline;
 }
+
 .subtitulo2-noticias {
-    color: rgb(45, 123, 126);
-    text-decoration: underline;
+  color: rgb(45, 123, 126);
+  text-decoration: underline;
 }
+
 .fotointegrante {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .header-noticias {
-    display: flex;
-    text-align: right;
+  display: flex;
+  text-align: right;
 }
+
 .ul-noticias {
-    display: flex;
+  display: flex;
 }
+
 .pie-index {
-    text-align: center;
+  text-align: center;
 }
+
 .pie-experiencia {
-    text-align: center;
-    padding: 10px;
-    margin-top: 4%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 4%;
 }
+
 .pie-labanda {
-    text-align: center;
+  text-align: center;
 }
+
 .pie-noticias {
-    text-align: center;
+  text-align: center;
 }
+
 .pie-contacto {
-    text-align: center;
-    padding: 10px;
-    margin-top: 4%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 4%;
+}
+@media (min-width: 480px) {
+.historialfotos img {
+    width: 100%;
+    height: auto;
+}
+}
+@media (min-width: 768px) {
+.historialfotos img {
+    width: 100%;
+    height: auto;
+}
 }
 @media (min-width: 1200px) {
-.historialfotos {
+  .historialfotos {
     display: flex;
     width: 100%;
     height: 430px;
-}
+  }
 }
 @media (min-width: 1200px) {
-.historialfotos img {
+  .historialfotos img {
     width: 0px;
     flex-grow: 1;
     object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-}
+    opacity: 0.8;
+    transition: 0.5s ease;
+  }
 }
 @media (min-width: 1200px) {
-.historialfotos img:hover {
+  .historialfotos img:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
+  }
+}
+@media (max-width: 480px) {
+.historialfotos img {
+    width: 100%;
+    height: auto;
 }
 }
 .maincontacto {
-    text-align: center;
-    align-content: center;
+  text-align: center;
+  align-content: center;
 }
+
 .mainnoticias {
-    text-align: center;
+  text-align: center;
 }
+
 .videocuga {
-    display: flex;
-    width: 100%;
-    height: auto;
+  display: flex;
+  width: 100%;
+  height: auto;
 }
 
 .cajacontacto {
-    width: 100%;
-    height: auto;
-    background-color: rgb(45, 123, 126);
-    border: 2px solid aliceblue;
-    line-height: 55px;
-    justify-content: center;
-    padding: 5px;
-    margin-top: 2%;
-    align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: rgb(45, 123, 126);
+  border: 2px solid aliceblue;
+  line-height: 55px;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 2%;
+  align-items: center;
 }
 
 @media (max-width: 480px) {
-     body {
-       font-size: 16px;
-       padding: 10px;
-     }
-     
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
 }
 .integrantes {
-    color:  rgb(45, 123, 126);
-    text-align: center;
-    text-decoration: underline;
+  color: rgb(45, 123, 126);
+  text-align: center;
+  text-decoration: underline;
 }
-.linknoti {
-    color:  rgb(45, 123, 126);
 
+.linknoti {
+  color: rgb(45, 123, 126);
 }
+
 @media (max-width: 480px) {
-     body {
-       font-size: 16px;
-       padding: 10px;
-} 
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
 }
 .pcontacto {
-    font-weight: bold;
+  font-weight: bold;
 }
+
+
 @media (max-width: 480px) {
-    .historialfotos img {
-    width: 100%;
-    height: auto;  
-}
-}
-@media (max-width: 480px) {
-.body-labanda {
+  .body-labanda {
     font-size: 16px;
     padding: 10px;
-}
-}
-@media (max-width: 480px) {
-.body-noticias {
-    font-size: 16px;
-    padding: 10px;
-}
+  }
 }
 @media (max-width: 480px) {
-.body-contacto {
+  .body-noticias {
     font-size: 16px;
     padding: 10px;
+  }
 }
+@media (max-width: 480px) {
+  .body-contacto {
+    font-size: 16px;
+    padding: 10px;
+  }
 }
