@@ -15,7 +15,7 @@ header {
     gap: 10px;
 }
 
-.nav-link dropdown-toggle {
+.nav-link .dropdown-toggle {
     display: flex;
     width: 100%;
 }
@@ -43,7 +43,7 @@ header {
     color: aliceblue;
 }
 
-.li.nav {
+.li-nav {
     color: aliceblue;
 }
 
@@ -421,4 +421,11 @@ h4 {
     #menu-toggle:checked+.menu-icon+.ulnav {
         height: 100vh;
     }
+}
+.dropdown-menu {
+    right: 1px;
+}
+
+.ulnav .nav-item ul{
+    left:-8rem !important;
 }
