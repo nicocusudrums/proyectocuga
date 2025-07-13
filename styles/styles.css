@@ -429,3 +429,8 @@ h4 {
 .ulnav .nav-item ul{
     left:-8rem !important;
 }
+
+.titulo-index{
+    width: 7rem;
+    margin-left: 2rem;
+}
