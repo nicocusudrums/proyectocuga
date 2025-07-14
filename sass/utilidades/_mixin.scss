@@ -1,0 +1,25 @@
+@mixin grid ($grid) {
+display: $grid;
+}
+
+@mixin fdirec ($fdirec) {
+    flex-direction: $fdirec;
+}
+
+@mixin textd ($textd) {
+    text-decoration: $textd;
+}
+
+@mixin textal ($textal) {
+    text-align: $textal;
+}
+
+
+@mixin flexheader {
+    font-family: "Anton", sans-serif;
+    text-decoration: underline;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
