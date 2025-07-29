@@ -135,7 +135,6 @@ body {
 
 .div-section {
     width: 50%;
-    height: 40vh;
     background-color: $color-principal;
     @include textal (center);
     border: 2px solid rgb(0, 0, 0);
@@ -473,4 +472,22 @@ h4 {
 .titulo-index {
     width: 7rem;
     margin-left: 2rem;
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        @include grid (none)
+    }
+}
+
+.li-nav-mob {
+    @include grid (none)
+}
+
+@media (max-width: 768px) {
+  .li-nav-mob {
+    @include grid (flex);
+    @include textd (none);
+    font-size: 1.2rem;
+  }
 }
