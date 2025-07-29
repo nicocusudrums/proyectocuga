@@ -485,9 +485,20 @@ h4 {
 }
 
 @media (max-width: 768px) {
-  .li-nav-mob {
-    @include grid (flex);
+    .li-nav-mob {
+        @include grid (flex);
+        @include textd (none);
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .divimg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.navmob {
     @include textd (none);
-    font-size: 1.2rem;
-  }
 }

@@ -489,4 +489,15 @@ h4 {
   }
 }
 
+@media (max-width: 480px) {
+  .divimg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.navmob {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=styles.css.map */
