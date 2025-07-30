@@ -502,3 +502,9 @@ h4 {
 .navmob {
     @include textd (none);
 }
+
+@media (max-width: 480px) {
+    .titulo-index {
+        margin-left: 0;
+    }
+}
